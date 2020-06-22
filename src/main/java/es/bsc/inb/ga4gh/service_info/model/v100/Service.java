@@ -36,7 +36,7 @@ public class Service {
     
     private String id;
     private String name;
-    private String type;
+    private ServiceType type;
     private String description;
     private Organization organization;
     private URI contactUrl;
@@ -62,11 +62,11 @@ public class Service {
         this.name = name;
     }
 
-    public String getType() {
+    public ServiceType getType() {
         return type;
     }
 
-    public void setType(final String type) {
+    public void setType(final ServiceType type) {
         this.type = type;
     }
 
