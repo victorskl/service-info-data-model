@@ -51,18 +51,18 @@
     <repositories>
         <repository>
             <id>gitlab-maven</id>
-           <url>${CI_API_V4_URL}/projects/471/packages/maven</url>
+           <url>https://inb.bsc.es/maven</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>gitlab-maven</id>
-            <url>${CI_API_V4_URL}/projects/471/packages/maven</url>
+            <url>https://inb.bsc.es/maven</url>
         </repository>
         <snapshotRepository>
             <id>gitlab-maven</id>
-            <url>${CI_API_V4_URL}/projects/471/packages/maven</url>
+            <url>https://inb.bsc.es/maven</url>
         </snapshotRepository>
     </distributionManagement>
 
